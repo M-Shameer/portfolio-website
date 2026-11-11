@@ -1,0 +1,27 @@
+
+# Private database configuration
+/config/database.php
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Database backups and exports
+*.sql
+*.sql.zip
+
+# Private personal documents
+/uploads/documents/
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+
+# IDE and operating system files
+.vscode/
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
